@@ -1,0 +1,13 @@
+.heardbar{display: block; height: 50px; border-bottom: 1px solid #dce0e0; background: #fff; position: fixed; top: 0; left: 0; width: 100%; z-index: 10000;
+    .logow{display: block; width: 65px; height: 50px; float: left; padding: 0 19px;
+        .logo{display: block;height: 35px; background: url('../images/logoicon.png') no-repeat center; margin-top: 7px;
+            h1{display: none;}
+        }
+    }
+    .comp{display: block; height: 50px; line-height: 50px; border-left: 1px solid #dce0e0;position: relative;
+        .hdr_btn{display: block; padding: 0 19px; color:#333;
+            &:hover{background: #ededed;}
+        }
+    }
+    .pull-right{float: right;}
+}
