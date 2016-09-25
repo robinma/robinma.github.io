@@ -1,0 +1,41 @@
+// village
+
+@import "core/_setting";
+@import "core/_css3";
+@import "core/_mixin";
+@import './_publish_head';
+@import './_publish_foot';
+
+.viview-cont{display: block;}
+.villagecont{display: block; position: fixed; top: 50px; left: 0; bottom: 0; right: 0; background: #fff;
+    .sidebar{position: fixed; top: 50px; left: 0; right: auto; bottom: 0;  width: 60%; background: #ececec; overflow: auto;}
+
+
+    .map{position: fixed; top: 50px; right: 0; bottom: 0; width: 40%; left: auto; background: #fff;
+        .mapwarp{height: 100%;}
+    }
+}
+
+.sidebar_cont{padding: 20px;
+    .prano_block{display: block;}
+    .prano_view{height: 420px; background: #fff;}
+    .prano_gallery{display: block; padding: 10px 0;}
+    .panorId{height: 100%; background: #ccc;}
+}
+.prano_gallery{
+    .gallerys{height: 90px; position: relative; background: #fff; overflow: hidden;}
+    .gallery_photo{display: block; overflow: hidden; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;}
+    .vilimg_sml{display: block; float: left; width: 130px; padding: 0 10px;
+        &:first-child{padding-left: 0;}
+        &:last-child{padding-right: 0;}
+        .ibox{display: block; height: 100%; background: #000;}
+        .villimg{display: block; height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center; position: relative; opacity: 0.8;
+            &:hover{opacity: 1;}
+            .hover{display: block; position: absolute; top: 0;left: 0; right: 0; bottom: 0; border: 2px solid #45ba25;}
+        }
+    }
+    .vilimg_active{
+        .villimg{opacity: 1;}
+        .hover{display: block;}
+    }
+}

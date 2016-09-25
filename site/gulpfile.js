@@ -21,13 +21,13 @@ const filePath = {
     dstCss: './dist/css/',
 
     srcImg: './src/images/*.*',
-    dstImg: './dist/images',
+    dstImg: './dist/images/',
 
     srcHtml: './src/html/*.html',
-    dstHtml: './dist/html',
+    dstHtml: './dist/html/',
 
     srcStatic: './src/static/**/*.*',
-    dstStatic: './dist/static'
+    dstStatic: './dist/static/'
 
 }
 
